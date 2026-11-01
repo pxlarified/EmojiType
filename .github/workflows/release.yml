@@ -43,17 +43,3 @@ jobs:
           curseforge-token: ${{ secrets.CURSEFORGE_TOKEN }}
           github-token: ${{ secrets.PUBLISH_GITHUB_TOKEN }}
           modrinth-unfeature-mode: none
-
-      - name: Upload NeoForge assets to GitHub, Modrinth, and CurseForge
-        uses: Kir-Antipov/mc-publish@v3.3
-        with:
-          name: ""
-          files: |
-            neoforge/build/libs/!(*-@(dev|shadow|dev-shadow|sources|javadoc).jar)
-          version: ${{ steps.gradle-properties.outputs.mod_version }}-neoforge
-          modrinth-id: emoji-type
-          modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
-          curseforge-id: emoji-type
-          curseforge-token: ${{ secrets.CURSEFORGE_TOKEN }}
-          github-token: ${{ secrets.PUBLISH_GITHUB_TOKEN }}
-          modrinth-unfeature-mode: none
