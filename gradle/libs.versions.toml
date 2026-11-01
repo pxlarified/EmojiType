@@ -2,13 +2,13 @@
 # https://linkie.shedaniel.me/dependencies
 
 [versions]
-minecraft = "26.2"
-fabric-loader = "0.19.2"
+minecraft = "26.3"
+fabric-loader = "0.19.5"
 neoforge = "21.10.55-beta"
 neoforge-yarn-mappings-patch = "1.21+build.6"
-modmenu = "18.0.0-alpha.8"
+modmenu = "21.0.0"
 snakeyaml = "2.5"
-fabric-loom = "1.16-SNAPSHOT"
+fabric-loom = "1.17.21"
 
 [libraries]
 minecraft = { module = "com.mojang:minecraft", version.ref = "minecraft" }
