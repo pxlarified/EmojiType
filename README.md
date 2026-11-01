@@ -15,7 +15,7 @@ word (e.g. `:skull:`).</h4>
   </a>
 
   <a href="https://modrinth.com/mod/emoji-type-recontinued">
-    <img alt="Modrinth Version" src="https://img.shields.io/modrinth/v/emoji-type-recontinued?style=flat-square">
+    <img alt="Modrinth Version" src="https://img.shields.io/badge/Version-v1.104.0-blue?style=flat-square">
   </a>
 
   <a href="https://github.com/pxlarified/emojitype?tab=GPL-3.0-1-ov-file">
