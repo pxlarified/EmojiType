@@ -4,8 +4,6 @@
 [versions]
 minecraft = "26.3"
 fabric-loader = "0.19.5"
-neoforge = "21.10.55-beta"
-neoforge-yarn-mappings-patch = "1.21+build.6"
 modmenu = "21.0.0"
 snakeyaml = "2.5"
 fabric-loom = "1.17.21"
@@ -15,8 +13,6 @@ minecraft = { module = "com.mojang:minecraft", version.ref = "minecraft" }
 snakeyaml = { module = "org.yaml:snakeyaml", version.ref = "snakeyaml" }
 fabric-loader = { module = "net.fabricmc:fabric-loader", version.ref = "fabric-loader" }
 modmenu = { module = "com.terraformersmc:modmenu", version.ref = "modmenu" }
-neoforge = { module = "net.neoforged:neoforge", version.ref = "neoforge" }
 
 [plugins]
 fabric-loom = { id = "net.fabricmc.fabric-loom", version.ref = "fabric-loom" }
-
